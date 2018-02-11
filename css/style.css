@@ -1,0 +1,145 @@
+
+
+/* General */
+
+* {
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+img, embed, object, video {
+	max-width: 100%;
+}
+
+/* Entire Content */
+
+.content {
+	margin: auto;
+	max-width: 970px;
+}
+
+/* Header */
+
+.logo {
+	float: left;
+	width: 64px;
+	height: 64px;
+	margin: 33px 0;
+}
+
+.right-aligned {
+	float: right;
+}
+
+header:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+h1 {
+	text-align: right;
+	text-transform: uppercase;
+	color: #2d3c49;
+	font-size: 36pt;
+	margin-bottom: 0;
+}
+
+h2 {
+	color: #7d97ad;
+	font-size: 28pt;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+/* Horizontal line */
+
+hr {
+	height: 4px;
+	background-color: #7d97ad;
+	border: none;
+	margin-bottom: 30px;
+}
+
+/* Portfolio Title */
+
+h3 {
+	text-align: right;
+	text-transform: uppercase;
+	color: #2d3c49;
+	margin-top: 0;
+}
+
+/* Portfolio */
+
+@media screen and (min-width: 962px) {
+	article {
+		max-width: 300px;
+	}
+	.portfolio-container {
+		display: flex;
+		justify-content: space-between;
+	}
+	.portfolio-img {
+		margin-bottom: 15px;
+	}
+}
+
+@media screen and (min-width: 800px) and (max-width: 961px) {
+	article {
+		max-width: 300px;
+		margin: 10px;
+	}
+	.portfolio-container {
+		display: flex;
+		justify-content: space-between;
+	}
+	.portfolio-img {
+		margin-bottom: 15px;
+	}
+}
+
+@media screen and (min-width: 680px) and (max-width: 799px) {
+	article {
+		max-width: 320px;
+	}
+	.portfolio-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.portfolio-img {
+		margin-bottom: 15px;
+	}
+}
+
+@media screen and (min-width: 0) and (max-width: 679px) {
+	article {
+		margin: auto;
+	}
+
+	.portfolio-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.portfolio-img {
+		margin-bottom: 5px;
+	}
+}
+
+/* Portfolio element title */
+
+h4 {
+	font-size: 26pt;
+	color: #2d3c49;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.portfolio-url {
+	color: #2d3c49;
+	text-align: center;
+	margin-bottom: 30px;
+}
