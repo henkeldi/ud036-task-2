@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 Make a copy of the repository:
 
 ```bash
-git clone https://github.com/henkeldi/ud036_StarterCode.git
+git clone https://github.com/henkeldi/ud036-task-2.git
 ```
 
 ### Running the program
