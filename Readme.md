@@ -21,3 +21,7 @@ git clone https://github.com/henkeldi/ud036-task-2.git
 ### Running the program
 
 Open `index.html` inside your browser.
+
+### References
+
+* [Pexel](https://www.pexels.com/public-domain-images/)

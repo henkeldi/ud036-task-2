@@ -1,61 +1,74 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
    <head>
       <title>Portfolio Page</title>
-      <meta charset="UTF-8">
+      <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-      <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet"> 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100"> 
+      <link rel="stylesheet" href="css/style.css">
    </head>
    <body>
       <div class="content">
          <!-- Header with logo, title and subtitle -->
          <header>
             <img class="logo" src="img/udacity.svg" alt="udacity logo">
-            <div class="right-aligned">
+
+            <div>
                <h1>Jane Doette</h1>
                <h3>Front-End Ninja</h3>
             </div>
          </header>
-         
+
          <hr>
-         
+
          <!-- big cover image -->
-         <img class="title-img" src="img/title_img.png" alt="Title image">
+         <img class="title-img" 
+                src="img/title-img.png"
+                sizes="(min-width: 0) and (max-width: 961px) 100vw, (min-width: 962px) 1000px"
+                srcset="img/title-img-small.jpg 300w, img/title-img-medium.jpg 600w, img/title-img-large.jpg 1000w"
+                alt="Title image">
 
          <h2>Featured Work</h2>
 
          <!-- Portfolio consists of portfolio items -->
          <!-- A portfolio item consists of an image, an article name, and an url-->
-         <div class="portfolio-container">
+         <main>
             <article>
-               <img class="portfolio-img" src="img/img-1.png" alt="Portfolio image 1">
-               <h4 class="portfolio-headline">
-                  Applify
-               </h4>
-               <div class="portfolio-url">
-                  https://github.com/udacity/Applify
-               </div>
+               <img class="portfolio-img" 
+                    src="img/img-1.jpg" 
+                    sizes="(min-width: 0) and (max-width: 679px) 100vw, (min-width: 680px) and (max-width: 799px) 50vw, (min-width: 800px) and (max-width: 961px) 33vw"
+                    srcset="img/img-1-small.jpg 300w, img/img-1-medium.jpg 600w, img/img-1-large.jpg 900w"
+                    alt="Portfolio image 1">
+
+               <h4 class="portfolio-headline">Applify</h4>
+
+               <p>https://github.com/udacity/Applify</p>
             </article>
+
             <article>
-               <img class="portfolio-img" src="img/img-2.png" alt="Portfolio image 2">
-               <h4 class="portfolio-headline">
-                  Sunflower
-               </h4>
-               <div class="portfolio-url">
-                  https://github.com/udacity/Sunflower
-               </div>
+               <img class="portfolio-img" 
+                    src="img/img-2.jpg" 
+                    sizes="(min-width: 0) and (max-width: 679px) 100vw, (min-width: 680px) and (max-width: 799px) 50vw, (min-width: 800px) and (max-width: 961px) 33vw"
+                    srcset="img/img-2-small.jpg 300w, img/img-2-medium.jpg 600w, img/img-2-large.jpg 900w"
+                    alt="Portfolio image 2">
+
+               <h4 class="portfolio-headline">Sunflower</h4>
+
+               <p>https://github.com/udacity/Sunflower</p>
             </article>
+
             <article>
-               <img class="portfolio-img" src="img/img-3.png" alt="Portfolio image 3">
-               <h4 class="portfolio-headline">
-                  Bokeh
-               </h4>
-               <div class="portfolio-url">
-                  https://github.com/udacity/Bokeh
-               </div>
+               <img class="portfolio-img"
+                    src="img/img-3.jpg" 
+                    sizes="(min-width: 0) and (max-width: 679px) 100vw, (min-width: 680px) and (max-width: 799px) 50vw, (min-width: 800px) and (max-width: 961px) 33vw"
+                    srcset="img/img-3-small.jpg 300w, img/img-3-medium.jpg 600w, img/img-3-large.jpg 900w"
+                    alt="Portfolio image 3">
+
+               <h4 class="portfolio-headline">Bokeh</h4>
+
+               <p>https://github.com/udacity/Bokeh</p>
             </article>
-         </div>
+         </main>
       </div>
    </body>
 </html>
